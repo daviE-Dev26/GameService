@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameService">
+        <activity
+            android:name=".utils.GamesUpdateActivity"
+            android:exported="false"
+            android:label="@string/title_activity_games_update"
+            android:theme="@style/Theme.GameService" />
+        <activity
+            android:name=".utils.GamesInsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_games_insert"
+            android:theme="@style/Theme.GameService" />
+        <activity
+            android:name=".utils.GamesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_games"
+            android:theme="@style/Theme.GameService" />
+        <activity
+            android:name=".ui.screens.DesarrolladorActivity"
+            android:exported="false"
+            android:label="Desarrollador" />
+        <activity
+            android:name=".ui.screens.VideojuegoCrudActivity"
+            android:exported="false"
+            android:label="Videojuegos CRUD" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GameService">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.screens.LocationsListActivity"
+            android:exported="true" />
+        <activity android:name=".ui.screens.LocationsMapActivity" />
+        <activity android:name=".ui.screens.LocationDetailActivity" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBqB1arl0ZZD1HcjiZlFttIkUPx83eP5B4" />
+    </application>
+
+</manifest>

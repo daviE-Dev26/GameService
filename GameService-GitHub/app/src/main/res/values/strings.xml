@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GameService</string>
+    <string name="title1">Bienvenido a GameService</string>
+    <string name="title2">Explora y descubre juegos</string>
+    <string name="title3">Únete y juega con amigos</string>
+    <string name="frase1">Descubre los mejores videojuegos y explora contenido exclusivo de tus títulos favoritos</string>
+    <string name="frase2">Sigue tus juegos favoritos, recibe novedades y mantente al día con cada actualización</string>
+    <string name="frase3">Comienza tu aventura ahora y sumérgete en una experiencia de juego única y divertida</string>
+    <string name="autor">David</string>
+    <string name="derechos">Todos los derechos reservados</string>
+    <string name="empezar">Empezar</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="logo">Logo de GameService</string>
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="usuario_label">Usuario</string>
+    <string name="password_label">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="ingresando">Ingresando...</string>
+    <string name="entrar_invitado">Entrar como invitado</string>
+    <string name="error_usuario_clave">Usuario o clave incorrectos</string>
+    <string name="invitado">Invitado</string>
+    <string name="correo_label">Correo electrónico</string>
+    <string name="entrar_desarrollador">Ingresar como desarrollador</string>
+    <string name="mantenimiento_videojuegos">Mantenimiento de videojuegos</string>
+    <string name="title_activity_games">GamesActivity</string>
+    <string name="title_activity_games_insert">GamesInsertActivity</string>
+    <string name="title_activity_games_update">GamesUpdateActivity</string>
+</resources>
